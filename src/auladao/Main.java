@@ -12,7 +12,7 @@ public class Main {
         
         PessoaDAO dao = new PessoaDAO();
         LocalDate date = LocalDate.of(1988, Month.AUGUST, 31);
-        Pessoa p = new Pessoa("juacy willian", "juacy@willian.com", "12345678901", "5521993471707", "m", date);
+        Pessoa p = new Pessoa("juacy willian", "juacy@willian.com", "12345678901", "5521123456789", "m", date);
         int id = dao.insert(p);
         System.out.println(id);
         

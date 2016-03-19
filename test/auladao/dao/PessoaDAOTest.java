@@ -19,7 +19,7 @@ public class PessoaDAOTest extends TestCase{
     public PessoaDAOTest() {
         dao = new PessoaDAO();
         LocalDate date = LocalDate.of(1988, Month.AUGUST, 31);
-        p = new Pessoa("juacy willian", "juacy@willian.com", "12345678901", "5521993471707", "m", date);
+        p = new Pessoa("juacy willian", "juacy@willian.com", "12345678901", "5521123456789", "m", date);
     }
 
     @Test

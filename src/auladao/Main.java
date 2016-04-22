@@ -32,7 +32,7 @@ public class Main {
         }
         
         int delete = dao.deleteMany(pessoas);
-        System.out.println(delete);
+        System.out.println(delete+" registros foram deletadas de pessoas.pessoa.");
         
     }
 }

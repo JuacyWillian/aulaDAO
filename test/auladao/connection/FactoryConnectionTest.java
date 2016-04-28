@@ -9,7 +9,7 @@ public class FactoryConnectionTest extends TestCase{
     @Test
     public void testCreate() {
         System.out.print("testing FactoryConnection.create()");
-        FactoryConnection fabrica = new FactoryConnection();
+        FactoryConnection fabrica = FactoryConnection.getInstance();
         Connection result = fabrica.create();
         assertNotNull(" --> fail", result);
         System.out.println(" --> sucessfull");
